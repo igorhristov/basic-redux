@@ -7,7 +7,7 @@ const HooksCounter = () => {
     const decrament = () => {
         setCount(count - 1);
     };
-    
+
     return (
         <div className='container'>
             <h2>Hooks Counter</h2>
@@ -19,8 +19,7 @@ const HooksCounter = () => {
             </div>
         </div>
     );
-    {
-    }
+    
 };
 
 export default HooksCounter;

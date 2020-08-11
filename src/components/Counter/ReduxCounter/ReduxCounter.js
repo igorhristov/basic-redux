@@ -9,7 +9,6 @@ class Counter extends React.Component {
 
     decrament = () => {
         this.props.dispatch({ type: 'DECREMENT' });
-
     };
 
     render() {
