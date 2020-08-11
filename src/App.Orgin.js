@@ -8,6 +8,9 @@ import ReduxCounter from './components/Counter/ReduxCounter/ReduxCounter';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
+const INCREMENT = 'INCREMENT';
+const DECREMENT = 'DECREMENT';
+
 const initialState = {
     count: 0,
 };
@@ -15,10 +18,10 @@ const initialState = {
 function reducer(state = initialState, action) {
     console.log('reducer', action);
     switch (action.type) {
-        case 'INCREMENT':
+        case INCREMENT:
             return { count: state.count + 1 };
 
-        case 'DECREMENT':
+        case DECREMENT:
             return { count: state.count - 1 };
         default:
             return state;
