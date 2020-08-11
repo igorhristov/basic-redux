@@ -1,0 +1,27 @@
+.container {
+    margin: 0 auto;
+}
+h2 {
+    color: aliceblue;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 10vw;
+    height: 8vh;
+    background: silver;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.counter button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.count {
+    margin: 0 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
