@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { increment, decrement } from '../../../Redux/actions';
+import { increment, decrement } from './Redux/actions';
 
 import '../counter.css';
 
