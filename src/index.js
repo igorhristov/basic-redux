@@ -6,7 +6,8 @@ import App from './App';
 // Redux import store from difrent apps
 import { Provider } from 'react-redux';
 // import store from './components/Counter/ReduxCounter/Redux/store';
-import store from './components/Light/Redux/store';
+// import store from './components/Light/Redux/store';
+import store from './components/Bug/redux/store'
 
 ReactDOM.render(
     <React.StrictMode>
